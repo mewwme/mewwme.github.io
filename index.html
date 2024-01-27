@@ -1,30 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html id="home">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
-    <style>
-        body {
-            animation: backgroundChange 6s infinite;
-            text-align: center;
-        }
+    <title> MEWWME'S </title>
+    <link rel="icon" href="assets/img/avatar.png">
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-language" content="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 
-        h1 {
-            margin-top: 50vh;
-        }
 
-        @keyframes backgroundChange {
-            0%, 100% {
-                background-color: black;
-            }
-            50% {
-                background-color: white;
-            }
-        }
-    </style>
+    <meta name="description"
+        content="MEWWME'S. The Discord music bot that's 100% free with no payment or votes required to access all its amazing functionalities.">
+    <meta name="keywords"
+        content="Mewwme, Discord muisc bot, Discord music 24/7, Radio Indonesia, Lofi Radio, Clean ui discord">
+
+    <meta name="robots" content="index, follow">
+
+    <meta itemprop="name" content="MEWWME'S">
+    <meta itemprop="description"
+        content="MEWWME'S. The Discord music bot that's 100% free with no payment or votes required to access all its amazing functionalities.">
+
+
+    <meta name="og:title" content="MEWWME'S - Discord Music Bot">
+    <meta name="og:description"
+        content="MEWWME'S. The Discord music bot that's 100% free with no payment or votes required to access all its amazing functionalities.">
+
+    <meta name="og:url" content="https://meww.me">
+    <meta property="og:keywords"
+        content="Mewwme, Discord muisc bot, Discord music 24/7, Radio Indonesia, Lofi Radio, Clean ui discord">
+    <meta name="og:site_name" content="MEWWME'S">
+    <meta name="og:locale" content="en">
+    <meta name="og:type" content="website">
+
+   
+
+    <link rel="icon" href="assets/img/avatar.png" type="image/png">
+    <link rel="apple-touch-icon" href="assets/img/avatar.png">
+
+    <meta name="application-name" content="Harmony">
+    <meta name="theme-color" content="#420420">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/animate.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
 </head>
-<body>
-    <h1>Hello World, Kumaha Damang?</h1>
+<body id="body">
+<nav class="animated fadeInDown">
+    <div class="logo">
+        <img src="assets/img/avatar.png" alt="Logo">
+        <h3><a href="https://discord.com/api/oauth2/authorize?client_id=928711702596423740&permissions=551940385840&response_type=code&redirect_uri=https%3A%2F%2Fdiscord.gg%2Fmewwme&scope=guilds.join+bot+applications.commands">MEWWME'S</a></h3>
+    </div>
+    <div class="bar">
+    
+        <a href="https://top.gg/user/361407102650109952">Vote me </a>
+
+        <a href="https://discord.com/api/oauth2/authorize?client_id=928711702596423740&permissions=551940385840&response_type=code&redirect_uri=https%3A%2F%2Fdiscord.gg%2Fmewwme&scope=guilds.join+bot+applications.commands">Server Support </a>
+
+        <a href="#home"><i class="fas fa-home"></i> Home</a>
+                
+    </div> 
+    <div onclick="menu();" id="navbar-toggle" class="navbar-toggle">
+        <div id="top-bar" class="navbar-toggle-item top-bar"></div>
+        <div id="middle-bar" class="navbar-toggle-item middle-bar"></div>
+        <div id="bottom-bar" class="navbar-toggle-item bottom-bar"></div>
+    </div>
+</nav>
+<div class="mobile-nav" id="mobile-nav">
+    <a onclick="menu();" href="#home"><i class="fas fa-home"></i> Home</a>
+</div>
+<main>
+    <div class="site-dark hey">
+        <div class="harmony">
+            <h1 class="toptext animated fadeInDown"> MEWWME'S.</h1>
+            <h3 class="subtext animated fadeInDown">Listen to your favourite music on discord with your friends!. The Discord music bot that's 100% free with no payment or votes required to access all its amazing functionalities.</h3>
+        </div>
+        <center><div class="buttons animated fadeInUp">
+            <a href="invite.html" class="btn invite animated fadeInDown"><i
+                    class="fas fa-plus-square"></i> Invite MEWWME'S</a>
+          
+        </div></center>
+        <div class="stats animated zoomIn">
+        </div>
+        <div class="bigimg">
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <ul class="footer-links">
+                <li><a href="Privacy-Policy.html">Privacy Policy</a></li>
+                <li><a href="Terms-Of-Services.html">Terms of Service</a></li>
+            </ul>
+        </div>
+    </footer>
+</main>
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.animateNumber.min.js"></script>
+<script src="assets/js/main.js"></script>
 </body>
 </html>
